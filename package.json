@@ -1,0 +1,24 @@
+{
+  "name": "@nuble/core",
+  "version": "0.0.1",
+  "description": "A minimal, opinionated starter toolkit to enhance the developer experience (DX) when building Express.js applications  ---",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "private": "true",
+  "workspaces": [
+    "packages/*",
+    "examples/*"
+  ],
+  "directories": {
+    "example": "examples"
+  },
+  "type": "module",
+  "bin": {
+    "create-nuble-app": "./bin/nuble.js"
+  }
+}
