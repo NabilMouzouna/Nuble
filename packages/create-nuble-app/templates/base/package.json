@@ -1,0 +1,15 @@
+{
+    "name": "my-nuble-app",
+    "version": "0.0.1",
+    "type": "module",
+    "scripts": {
+        "build": "tsc",
+        "dev": "tsc -w & node --watch dist/index.js"
+    },
+    "dependencies": {
+        "@nuble/core": "file:../../../nuble-core"
+    },
+    "devDependencies": {
+        "typescript": "^5.9.2"
+    }
+}
