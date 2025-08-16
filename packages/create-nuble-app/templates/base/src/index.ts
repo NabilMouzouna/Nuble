@@ -1,3 +1,3 @@
-import { createNubleServer } from "@nuble/core";
+import { Server } from "@nuble/core";
 
-createNubleServer(2001);
+Server(2001);
